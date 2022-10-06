@@ -164,6 +164,8 @@ li {
   overflow-y: auto;
 }
 
+.hide-user { display: none;}
+
 .user figure {
   padding: 20px;
   display: flex;
