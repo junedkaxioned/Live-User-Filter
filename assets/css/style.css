@@ -101,35 +101,95 @@ li {
   margin: 0 auto;
 }
 
-/*=================================
-  Header styling starts here
-=================================*/
-
-
-
-/*=================================
-  Header styling ends here
-=================================*/  
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 /*=================================
   main styling starts here
 =================================*/
 
+.live-user {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  background-color: #f8f9fd;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.live-user .wrapper {
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px rgb(0 0 0 / 20%);
+  overflow: hidden;
+}
+
+.filter-section {
+  padding: 30px 20px;
+  background-color: #3e57db;
+  color: #fff;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.subtitle {
+  margin: 5px 0 20px;
+  display: inline-block;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.filter {
+  width: 100%;
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font-size: 14px;
+  outline: none;
+}
+
+.users-list {
+  max-height: 400px;
+  background-color: #fff;
+  list-style-type: none;
+  overflow-y: auto;
+}
+
+.user figure {
+  padding: 20px;
+  display: flex;
+}
+
+.user figure img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-info { margin-left: 10px; }
+
+.user-info h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 10px;
+}
+
+.user-info p { font-size: 12px; }
 
 
 /*=================================
   main styling ends here
 =================================*/
-
-/*=================================
-  footer styling starts here
-=================================*/ 
-
-
-
- /*=================================
-  footer styling ends here
-=================================*/ 
 
 /*media query starts*/
 /*media query for 995px starts here*/
